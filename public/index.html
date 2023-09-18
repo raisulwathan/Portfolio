@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en" lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="text-gray-500 bg-gray-950">
+    
+	<header class="absolute top-0 left-0 z-10 flex items-center w-full bg-transparent">
+		<div class="container">
+			<div class="relative flex items-center justify-between">
+				<div class="px-4">
+					<div class="block py-6 text-lg uppercase"> <!-- logo -->
+						<a href="#home">
+							<span class="font-extrabold text-white">Raisul</span><span class="text-blue-400 font-extralight">Wathan</span>
+						</a>
+					</div>
+				</div>
+				<div class="flex items-center px-4">
+					<button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+						<span class="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+						<span class="transition duration-300 ease-in-out hamburger-line"></span>
+						<span class="transition duration-300 ease-in-out origin-bottom-left hamburger-line "></span>
+					</button>
+					<nav id="nav-menu" class="hidden absolute px-2 py-2 bg-gray-900 shadow-lg rounded-lg max-w-[200px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+						<ul class="block lg:flex">
+							<li class="group">
+								<a href="#services" class="flex py-2 mx-8 text-base text-white group-hover:text-blue-400">services</a>
+							</li>
+							<li class="group">
+								<a href="#portfolio" class="flex py-2 mx-8 text-base text-white group-hover:text-blue-400">Portfolios</a>
+							</li>
+							<li class="group">
+								<a href="#Achievement" class="flex py-2 mx-8 text-base text-white group-hover:text-blue-400"> Achievement</a>
+							</li>
+							<li class="group">
+								<a href="#contact" class="flex py-2 mx-8 text-base text-white group-hover:text-blue-400">contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section id="home" class=" pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="self-start w-full px-4 lg:w-1/2">
+                    <div class="flex">
+                    <svg class="w-5 h-5 stroke-2 stroke-gray-400">
+                        <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                    </svg>
+                    <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        my name is
+                    </h2>
+                </div>
+                  
+                        <h3 class="pt-2 text-2xl font-bold text-white lg:text-4xl">
+                            <span>Raisul</span><span class="text-blue-700">Wathan</span>
+                        </h3>
+                        <p class="text-sm font-light lg:text-lg">
+                            I am a rigorous Computer Science student from Syiah Kuala University with deep knowledge and interest in front-end development, mobile development and Kotlin. Have high ambition to learn new things and gain new experiences. Demonstrated experience working on projects as a developer while working on front-end development, building websites, and other IT tasks. Solid ability to code and use multiple tools, website & mobile development .
+                        </p>
+                    
+                    <div class="flex flex-row mt-5 space-x-3">
+                        <a href="https://www.instagram.com/raiswathan/" target="_blank"><img class="w-6 h-6 hover:rotate-12" src="./img/Instagram.svg" alt=""></a>
+                        <a href="https://github.com/raisulwathan" target="_blank"><img class="w-6 h-6 hover:rotate-12" src="./img/Github.svg" alt=""></a>
+                        <a href="https://twitter.com/WathanRaisul" target="_blank"><img class="w-6 h-6 hover:rotate-12" src="./img/Twitter.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/raisul-wathan/" target="_blank"><img class="w-6 h-6 hover:rotate-12" src="./img/Linkedin.svg" alt=""></a>
+                        
+                    </div>
+                    
+                </div>
+                <div class="self-end w-full px-48 mt-20 lg:w-1/2 ">
+                    <div class="mt-10 lg:mt-9 lg:right-0">
+                        <div class="grid w-full grid-cols-1 gap-5 lg:scale-150 md:grid-cols-9 lg:grid-cols-1 ">
+                        <div class="relative items-center justify-center overflow-hidden transition-shadow cursor-pointer group hover:shadow-xl hover:shadow-black/30">
+                            <div class="h-96 w-72">
+                              <img class="object-cover w-full h-full transition-transform duration-500 ml-14 lg:ml-0 group-hover:rotate-3 group-hover:scale-125" src="./img/wathan.png" alt="" />
+                            </div>
+                            <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70 rounded-xl"></div>
+                            <div class="absolute inset-0 flex translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
+                              <h1 class="text-xs uppercase mb-14 lg:text-3xl font-extralight tracking-ngangkang">I am <span class="text-blue-400 font-extralight">Wathan</span></h1>
+                              <p class="mb-3 text-xs uppercase transition-opacity duration-300 opacity-0 font-extralight tracking-ngangkang group-hover:opacity-100">Front-end Developer, Android Developer</p>
+                              <a href="https://github.com/raisulwathan" target="_blank"><button class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">See More</button></a>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-20 pl-5">
+                    <div class="flex">
+                        <svg class="w-5 h-5 stroke-2 stroke-gray-400">
+                            <line x1="0" y1="10px" x2="10px" y2="10px"/>
+                        </svg>
+                        <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                            Education
+                        </h2>
+                    </div>
+                 <div class="flex pt-3 scale-75 lg:scale-90">
+                    <img src="./img/unsyiah.png" alt="unsyiah" class="w-32 h-20">
+                    <h2 class="pt-4 pl-4 font-mono text-sm">
+                        <span class="text-slate-100">Universitas Syiah Kuala</span>
+                        <p class="pt-2 text-xs font-thin"><em>Computer Science Major/ Bachelor Degree, S-1</em></p>
+                    </h2>
+                </div>
+                <div class="flex pt-3 pb-48 pl-5 scale-75 lg:scale-90">
+                    <img src="./img/bangkitlogo.png" alt="unsyiah" class="w-20 h-16 scale-90 rounded-md">
+                    <h2 class="pt-4 pl-8 font-mono text-sm">
+                        <span class="text-slate-100">Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka</span>
+                        <p class="pt-2 text-xs font-thin"><em>Mobile Development Cohort</em></p>
+                    </h2>
+                </div>
+            </div>
+            </div>
+            
+        </div>
+    </section>
+
+	<section id="services" class="pt-20 pb-20 bg-slate-50">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto mb-16 text-center">
+					<h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        services
+                    </h2>
+                    <h3 class="relative text-3xl">Specialized in</h3>
+                </div>
+                </div>
+                <div class="flex flex-wrap justify-center w-full px-4">
+                    <div class="p-4 mb-12 lg:flex lg:w-full lg:mx-auto">
+                       
+                        <div class="bg-white rounded-lg shadow-lg mt-7 lg:mx-0">
+                            <div class="flex flex-col items-center px-10 py-10">
+                                <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                                    <img class="w-full" src="img/crown.svg" alt="">
+                                </div>
+                                <h4 class="mt-5 text-black">
+                                    UI/UX Design
+                                </h4>
+                                <p class="mt-2 text-sm text-center font-extralight text-gray">
+                                    Turn what you have in mind of a digital product into reality. For any platform you consider.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg mt-7 lg:mx-7 lg:mr-7">
+                            <div class="flex flex-col items-center px-10 py-10">
+                                <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                                    <img class="w-full" src="img/app.svg" alt="">
+                                </div>
+                                <h4 class="mt-5 text-black">
+                                    Android Development
+                                </h4>
+                                <p class="mt-2 text-sm text-center font-extralight text-gray">
+                                    Standard designing, building, and implementing your applications with documentation.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg shadow-lg mt-7">
+                            <div class="flex flex-col items-center px-10 py-10">
+                                <div class="w-10 h-10 p-2 bg-blue-100 rounded-2xl">
+                                    <img class="w-full" src="img/globe.svg" alt="">
+                                </div>
+                                <h4 class="mt-5 text-black">
+                                    Front-end Development
+                                </h4>
+                                <p class="mt-2 text-sm text-center font-extralight text-gray">
+                                    Create and maintain your websites and also take care of its performance and traffic capacity.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<section id="portfolio" class="py-32 bg-gray-950">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xs text-center">
+                    <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        Project Experiences
+                    </h2>
+                    <h3 class="pt-2 text-3xl text-white">Featured Portfolios</h3>
+                </div> 
+            </div>
+            
+            <section class="flex items-center text-gray-600 md:h-full">
+                <div class="container px-5 py-24 mx-auto">
+                    
+                    <div class="flex flex-wrap -m-4">
+                        <div class="p-4 scale-75 lg:scale-90 sm:w-1/2 lg:w-1/3">
+                            <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
+                                <img class="object-cover object-center w-full lg:h-72 md:h-48"
+                                    src="./img/ChoTrack.png" alt="blog">
+                                <a href="https://github.com/ChoTracker-C23-PS308" target="_blank"><div class="p-6 transition duration-300 ease-in hover:bg-blue-400 hover:text-white">
+                                    <h2 class="mb-1 text-base font-medium text-blue-700">Kotlin, Android Studio</h2>
+                                    <h1 class="mb-3 text-2xl ">ChoTracker</h1>
+                                    <p class="mb-3 leading-relaxed">Cholesterol check application through the eye, this project was made during the capstone project in the Awakening program which was created in June 2023, and this project was ranked 68th in the top</p>
+                                   
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="p-4 scale-75 lg:scale-90 sm:w-1/2 lg:w-1/3">
+                            <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
+                                <img class="object-cover object-center w-full lg:h-72 md:h-48"
+                                    src="./img/notebook.png" alt="blog">
+                               <a href="https://github.com/raisulwathan/NoteBook" target="_blank"> <div class="h-full p-6 transition duration-300 ease-in hover:bg-blue-400 hover:text-white">
+                                    <h2 class="mb-1 text-base font-medium text-blue-700">React</h2>
+                                    <h1 class="mb-3 text-2xl font-semibold">NoteBook</h1>
+                                    <p class="mb-3 leading-relaxed">this project is a website that can take notes like notes in general, this project was created using react js when following classes from dicoding</p>
+                                   
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="p-4 scale-75 lg:scale-90 sm:w-1/2 lg:w-1/3">
+                            <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
+                                <img class="object-cover object-center w-full lg:h-72 md:h-48"
+                                    src="./img/Mystory.jpeg" alt="blog">
+                                <a href="https://github.com/raisulwathan/StoryApp" target="_blank"><div class="h-full p-6 transition duration-300 ease-in hover:bg-blue-400 hover:text-white">
+                                    <h2 class="mb-1 text-base font-medium text-blue-700">Kotlin, Android Studio</h2>
+                                    <h1 class="mb-3 text-2xl font-semibold">StoryApp</h1>
+                                    <p class="mb-3 leading-relaxed">Create a story application using the Kotlin programming language, this project was created during the bangkit program 2023 </p>
+                                    
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="p-4 scale-75 sm:w-1/2 lg:w-1/3 lg:scale-90">
+                            <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
+                                <img class="object-cover object-center w-full lg:h-72 md:h-48"
+                                    src="./img/githubuser.jpeg" alt="blog">
+                                <a href="https://github.com/raisulwathan/GitHub_Users" target="_blank"><div class="h-full p-6 transition duration-300 ease-in hover:bg-blue-400 hover:text-white">
+                                    <h2 class="mb-1 text-base font-medium text-blue-700">Kotlin, Android Studio</h2>
+                                    <h1 class="mb-3 text-2xl font-semibold">Githubuser</h1>
+                                    <p class="mb-3 leading-relaxed">create a Github user application using the Kotlin programming language, this project was made during the Bangkit program 2023</p>
+                                    
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="p-4 scale-75 lg:scale-90 sm:w-1/2 lg:w-1/3">
+                            <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
+                                <img class="object-cover object-center w-full lg:h-72 md:h-48"
+                                    src="./img/gamesuit.jpg" alt="blog">
+                               <a href="https://github.com/raisulwathan/Game-Rock-Paper-Scissors-Suit" target="_blank"> <div class="h-full p-6 transition duration-300 ease-in hover:bg-blue-400 hover:text-white">
+                                    <h2 class="mb-1 text-base font-medium text-blue-700">Html, Css, javaScript</h2>
+                                    <h1 class="mb-3 text-2xl font-semibold">Game Suit</h1>
+                                    <p class="mb-3 leading-relaxed">Create a website-based game Suit Japan Rock Paper Scissors, using vanilla HTML, CSS and JavaScript, this project was created in July 2023</p>
+                                    
+                                </div></a>
+                            </div>
+                        </div>
+                        <div class="p-4 scale-75 lg:scale-90 sm:w-1/2 lg:w-1/3">
+                            <div class="h-full overflow-hidden border-2 border-gray-200 rounded-lg border-opacity-60">
+                                <img class="object-cover object-center w-full lg:h-72 md:h-48"
+                                    src="./img/serialDrama.jpg" alt="blog">
+                               <a href="https://github.com/raisulwathan/KoreanDramaList_JetpackCompose" target="_blank"> <div class="h-full p-6 transition duration-300 ease-in hover:bg-blue-400 hover:text-white">
+                                    <h2 class="mb-1 text-base font-medium text-blue-700">Jetpack Compose ,Kotlin, Android Studio</h2>
+                                    <h1 class="mb-3 text-2xl font-semibold">Serial Drama</h1>
+                                    <p class="mb-3 leading-relaxed">Create a Korean drama list application using jetpack compose, this application was made while following the bangkit program 2023</p>
+                                    
+                                </div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </section>
+
+                <div class="max-w-xs pt-20 mb-16 ml-20 text-center pb-11 lg:ml-0">
+                    <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        ORGANIZATIONAL & COMMITTEE EXPERIENCE
+                    </h2>
+                    <h3 class="pt-2 text-3xl text-white">HMIF</h3>
+                </div>
+                <div class="lg:flex lg:pb-96">
+                    <div class="self-center w-full lg:w-1/2 lg:h-0 lg:scale-95 ">
+                        <div class="pl-20 basis-2/3">
+                            <h4 class="text-2xl font-bold text-gray-200">Deputy Head of Interest and Appreciation</h4>
+                            <h5 class="text-sm font-light">Aceh, Banda Aceh</h5>
+                            <p class="mt-5 text-gray-200 text-light">Jan 2022 - present</p>
+                            <div class="mt-2">
+                                <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">HMIF</span>
+                                <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">MBA</span>
+                            </div>
+                            <hr class="my-5">
+                            <ul class="leading-10 list-disc list-inside">
+                                <li>Coordinating with other members in developing and planning work programs (timeline, budget, etc.),</li>
+                                <li>
+                                    Leading team members and delegating tasks to each member while ensuring all tasks are done properly,
+                                </li>
+                                <li>Organizing an event for informatics students that aims to see the talents of informatics students for
+                                    100+ informatics students,</li>
+                                <li>
+                                    Become a forum for informatics students to build relationships with alumni who have graduated
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+    
+                    <div class="self-end w-full my-10 lg:w-1/2 lg:h-1">
+                        <div class="pl-20 basis-2/3">
+                            <h4 class="text-2xl font-bold text-gray-200">Vice Chairman</h4>
+                            <h5 class="text-sm font-light"> Aceh, Banda Aceh</h5>
+                            <p class="mt-5 text-gray-200 text-light">Feb 2023 - present</p>
+                            <div class="mt-2">
+                                <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">HMIF</span>
+                                <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">DPH</span>
+                            </div>
+                            <hr class="my-5">
+                            <ul class="leading-10 list-disc list-inside">
+                                <li>to assist leaders in carrying out their duties. They can assist in coordinating member activities, supervising projects or programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="max-w-xs mb-16 ml-20 text-center pt-36 pb-11 lg:ml-0 ">
+                    <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        DEVELOPER
+                    </h2>
+                    <h3 class="pt-2 text-3xl text-white">Work Experiences</h3>
+                </div>
+                <div class="self-center w-full mb-32 lg:mb-56 lg:h-0 lg:scale-95 lg:w-1/2">
+                    <div class="pl-20 basis-2/3">
+                        <h4 class="text-2xl font-bold text-gray-200">Syiah Kuala University Achievement Website</h4>
+                        <h5 class="text-sm font-light">Aceh, Banda Aceh</h5>
+                        <p class="mt-5 text-gray-200 text-light">Agust 2023 - Desember 2023</p>
+                        <div class="mt-2">
+                            <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">WordPress</span>
+                           
+                        </div>
+                        <hr class="my-5">
+                       
+                    </div>
+                </div>
+                <div class="self-center w-full mb-32 lg:mb-56 lg:h-0 lg:scale-95 lg:w-1/2 ">
+                    <div class="pl-20 basis-2/3">
+                        <h4 class="text-2xl font-bold text-gray-200">Syiah Kuala University Appreciation Website</h4>
+                        <h5 class="text-sm font-light">Aceh, Banda Aceh</h5>
+                        <p class="mt-5 text-gray-200 text-light">Agust 2023 - Desember 2023</p>
+                        <div class="mt-2">
+                            <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">React js</span>
+                            <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">Tailwind css</span>
+                        </div>
+                        <hr class="my-5">
+                       
+                    </div>
+                </div>
+                <div class="self-center w-full mb-32 lg:h-0 lg:scale-95 lg:w-1/2">
+                    <div class="pl-20 basis-2/3">
+                        <h4 class="text-2xl font-bold text-gray-200">Laboratory assistant Software requirements engineering</h4>
+                        <h5 class="text-sm font-light">Aceh, Banda Aceh</h5>
+                        <p class="mt-5 text-gray-200 text-light">Agust 2023 - Desember 2023</p>
+                        <div class="mt-2">
+                            <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">Figma</span>
+                            <span class="px-2 py-1 font-mono text-sm border border-white border-solid rounded-md">Frontend engineering</span>
+                        </div>
+                        
+                       
+                    </div>
+                </div>
+            </div>
+           
+
+        </div>
+    </section>
+	<section id="Achievement" class="pt-20 pb-20 bg-slate-50">
+        <div class="container">
+            <div class="w-full px-4">
+                    <div class="max-w-xl mx-auto mb-16 text-center">
+					<h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        Career path
+                    </h2>
+                    <h3 class="relative text-3xl">Achievement</h3>
+                    </div>
+                  
+                </div>
+              
+            </div>
+
+            <div class="grid grid-cols-1 gap-8 mx-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+                <!-- Sertifikat 1 -->
+                <a href="path-to-certificate-1.jpg" data-lightbox="sertifikat" data-title="Sertifikat 1">
+                  <div class="p-4 bg-white rounded-lg shadow-lg">
+                    <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        Myskill
+                    </h2>
+                    <img src="./img/6.jpg" alt="Sertifikat 1" class="object-contain w-full h-48">
+                  </div>
+                </a>
+              
+                <!-- Sertifikat 2 -->
+                <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                  <div class="p-4 bg-white rounded-lg shadow-lg">
+                    <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                        Arkademi
+                    </h2>
+                    <img src="./img/7.jpeg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                  </div>
+                </a>
+
+                <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/1_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/2_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/3_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Myskill
+                      </h2>
+                      <img src="./img/4_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/5_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/8_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/bangkit_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/intermediate_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+                  <a href="path-to-certificate-2.jpg" data-lightbox="sertifikat" data-title="Sertifikat 2">
+                    <div class="p-4 bg-white rounded-lg shadow-lg">
+                      <h2 class="text-xs uppercase font-extralight tracking-ngangkang">
+                          Arkademi
+                      </h2>
+                      <img src="./img/jetpack_page-0001.jpg" alt="Sertifikat 2" class="object-contain w-full h-48">
+                    </div>
+                  </a>
+              
+                <!-- Tambahkan sertifikat lainnya di sini -->
+              </div>
+              
+              
+            
+    </section>
+
+    <footer class="py-8 text-sm font-light text-gray-200 bg-gray-900 " id="contact">
+        <div class="container flex flex-wrap justify-between mx-auto">
+          <div class="w-full mb-4 md:w-1/2 lg:w-1/4 md:mb-0">
+            <h3 class="mb-4 text-xl font-semibold">Contact</h3>
+            <p>Email: Raisulwathan07@gmail.com</p>
+            <p>Phone Number: 085376435160</p>
+          </div>
+          <div class="w-full mb-4 md:w-1/2 lg:w-1/4 md:mb-0">
+            <h3 class="mb-4 text-xl font-semibold">quick link</h3>
+            <ul>
+              <li><a href="#services">services</a></li>
+              <li><a href="#portfolio">Portofolios</a></li>
+              <li><a href="#Achievement">Achievement</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="w-full mb-4 md:w-1/2 lg:w-1/4 md:mb-0">
+            <h3 class="mb-4 text-xl font-semibold">social media</h3>
+            <ul>
+              <li><a href="#"><i class="fab fa-facebook"></i> Linkedin</a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i> Twitter</a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/4">
+            <h3 class="mb-4 text-xl font-semibold">Address</h3>
+            <p>Jalan Kowera 1 No. 21</p>
+            <p>Banda Aceh</p>
+            <p>Kode Pos: 23121</p>
+          </div>
+        </div>
+      </footer>
+      
+	
+	
+        
+   <script src="script.js"></script>
+</body>
+</html>
